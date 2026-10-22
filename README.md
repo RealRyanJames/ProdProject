@@ -1,44 +1,28 @@
-<h3>| Prod Project  - NodeJS Package |</h3>
+### | Prod Project - NodeJS Package |
 
-<h4>
+#### Project Description
 
-<h4>Project Description</h4>
-    
-<p><i>This Application Allows You To Create Projects 
-    While Staying Same Info</p></i>
-    Config | JSON File
-    <br>
-</h4>
+_This Application Allows You To Create Projects While Staying Same Info_
 
-<br>
+Config | JSON File 
 
-<h4>Project Setup | Steps Todos To Get | </h4>
+#### Project Setup | Steps Todos To Get |
 
-<li>Create a <strong>Config.json</strong> File</li>
-<p>This Config Project File Allows You To Know What Project You Selected Or What</p>
-<br>
+- Create a **Config.json** File
 
-<div>
-    <h5>Create: JS / TS: Project = true</h5>
-</div>
+This Config Project File Allows You To Know What Project You Selected Or What
 
-<div>
-    <h5>Create: GoLang: Project = true</h5>
-</div>
+Create: Java [Maven] Project = true
 
-<br>
+Create: JS [TS]: Project = true
 
-<p><strong>| Language Section Options |</strong></p> 
-<p><strong>Pick Any Language -</strong></p>
+Create: GoLang: Project = true
 
-<br>
-<ol>
-    <li>JavaScript | TypeScript</li>
-<hr>
-    <li>GoLang</li>
-<hr>
-    <li>Rust</li>
-<hr>
-    <li>C#  | .NET</li>
-<hr>
-</ol>
+**| Language Section Options |**
+
+**Pick Any Language -**
+
+1.  JavaScript | TypeScript
+2.  GoLang
+3.  Rust
+4.  C# | .NET

@@ -13,15 +13,15 @@ export default function Data() {
     while (json.default.Web === "true") {
       if (json.default.Language.startsWith("TypeScript")) {
         console.log("File Found");
-        ProjectConfig.Create("main.ts", true);
+        ProjectConfig.Create("main.ts", true, "TypeScript Picked");
       }
       if (json.default.Cli === "true") {
         console.log("File Found");
-        ProjectConfig.Create("main.ts", true);
+        ProjectConfig.Create("main.ts", true, "TypeScript Picked");
       } else if (json.default.Language.startsWith("GoLang")) {
         console.log("File Found");
 
-        ProjectConfig.Create("main.go", true);
+        ProjectConfig.Create("main.go", true, "GoLang Picked");
 
         child.exec("go mod init app", (error, stdout, stderr) => {
           if (error) {
@@ -37,7 +37,7 @@ export default function Data() {
         });
       } else if (json.default.Cli === "true") {
         console.log("File Found");
-        ProjectConfig.Create("main.ts", true);
+        ProjectConfig.Create("main.ts", true, "");
       } else if (json.default.Language.startsWith("Java")) {
         child.exec(
           "mvn archetype:generate -DgroupId=org.app.com.me -DartifactId=DemoProject -DpackageName=app-Dversion=1.0-SNAPSHOT -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false",
