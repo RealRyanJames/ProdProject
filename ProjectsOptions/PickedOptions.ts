@@ -20,20 +20,28 @@ export class Options {
 
 export namespace PickedOptions {
   function InitProd<T, E>(isOwned: T, Option: Option) {
-    if (String(Option).startsWith("Java_Home")) {
-      console.log("You Created " + Option);
-    }
+    setTimeout(async () => {
+      if (String(Option).startsWith("Java_Home")) {
+        console.log("You Created " + Option);
+      }
+    }, 2000);
 
-    if (String(Option).startsWith("GoLang")) {
-      console.log("You Created " + Option);
-    }
+    setTimeout(async () => {
+      if (String(Option).startsWith("GoLang")) {
+        console.log("You Created " + Option);
+      }
+    });
 
-    if (String(Option).startsWith("TypeScript")) {
-      console.log("You Created " + Option);
-    }
+    setTimeout(async () => {
+      if (String(Option).startsWith("TypeScript")) {
+        console.log("You Created " + Option);
+      }
+    });
 
-    if (String(Option).startsWith("JavaScript")) {
-      console.log("You Created " + Option);
-    }
+    setTimeout(async () => {
+      if (String(Option).startsWith("JavaScript")) {
+        console.log("You Created " + Option);
+      }
+    });
   }
 }
